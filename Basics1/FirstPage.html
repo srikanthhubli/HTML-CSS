@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Page Title
+        </title>
+        <style>
+            a:link {
+            color : greenyellow;
+            background-color : transparent;
+            text-decoration: deepskyblue;
+        }
+            a:visited {
+                color: firebrick;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:hover {
+                color: turquoise;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+
+            a:active {
+                color : yellow;
+                background-color: transparent;
+                text-decoration: und;
+            }
+
+        </style>
+        
+    </head>
+
+    <body style="background-color:darkolivegreen;">
+        <p> <a href="#C4">Jump to C4</a></p>
+
+        <p> <a href="#paragraphid">Jump to paragraphid </a></p>
+
+        <p> <a href="#PoemProblem">Jump to PoemProblem </a></p>
+
+        <p> <a href="#SecondPage">Jump to SecondPage </a></p>
+
+        <h1 style="background-color: white">    My First Heading  </h1> 
+        <h2 style="color: whitesmoke; font-family: 'Courier New', Courier, monospace; text-align: center; font-size: 500%"> My second Heading </h2>
+        <!-- id to create bookmark in the page -->
+        <h1 style="font-size:10px;" id="C4">With font size </h1>
+        <p id = "paragraphid" title = "Im a title for a paragraph" style="color: black; font-size: 500%;"> <i> <sub> My </sub> <sup> First </sup> paragraph</i>  </p> 
+        <p style="font-size: 500%" > The <abbr title="World health Organization">WHO</abbr> was founded in 1948</abbr></p>
+        
+        <!-- target decides which page it should open --> 
+        <a id= "SecondPage" href="SecondPage.html" target="_blank" style="font-size: 500%">Second Page</a>
+        <br>
+        <a id= "PoemProblem" href="PoemProblem.html" target="_parent" style="font-size: 500%" >Poem Problem </a>
+        <br>
+        <a href = "https://www.w3schools.com/" target="_self">Visit w3Schools.com </a>
+        <br> 
+        <a id= "Third" href="ThirdPage.html" target="_parent" style="font-size: 500%" >ThirdPage </a>
+    </body>
+</html>
