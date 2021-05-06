@@ -4,3 +4,17 @@ body {
     background-size: cover;
 }
 
+th {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: white;
+
+}
+
+td {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: white;
+    
+}
+
